@@ -37,16 +37,17 @@ python -m tda_market_risk.cli all
 ## Project structure
 
 ```text
-tda-market-risk/
-  configs/config.yaml
-  data/raw/
-  data/processed/
-  outputs/correlation_matrices/
-  outputs/distance_matrices/
-  outputs/manifests/matrix_index.csv
-  outputs/figures/avg_corr.png
-  src/tda_market_risk/
-  tests/
+
+configs/config.yaml
+data/raw/
+data/processed/
+notebooks/
+outputs/correlation_matrices/
+outputs/distance_matrices/
+outputs/manifests/matrix_index.csv
+outputs/figures/avg_corr.png
+src/tda_market_risk/
+tests/
 ```
 
 ## Default config
