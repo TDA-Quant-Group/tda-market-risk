@@ -68,7 +68,7 @@ Manifest columns:
 - `window_start`
 - `window_end`
 
-## For topology teammate
+## For Topology Lead
 
 Use `matrix_index.csv` to iterate snapshots and load distances:
 
