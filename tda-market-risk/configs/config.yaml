@@ -1,0 +1,29 @@
+tickers:
+  - AAPL
+  - MSFT
+  - AMZN
+  - NVDA
+  - GOOGL
+  - META
+  - TSLA
+  - JPM
+  - JNJ
+  - XOM
+  - PG
+  - UNH
+  - HD
+  - BAC
+  - V
+  - MA
+  - DIS
+  - KO
+  - PFE
+  - CSCO
+start_date: "2018-01-01"
+end_date: "2025-12-31"
+price_field: "Adj Close"
+rolling_window_days: 120
+step_days: 5
+min_non_nan_frac: 0.98
+min_overlap_frac: 0.98
+output_format: "npy"

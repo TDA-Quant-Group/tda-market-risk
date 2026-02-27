@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tda-market-risk"
+version = "0.1.0"
+description = "Topological Data Analysis pipeline for equity market structure"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "TDA Quant Research Group" }
+]
+dependencies = [
+  "numpy==1.26.4",
+  "pandas==2.2.3",
+  "yfinance==0.2.54",
+  "pyarrow==18.1.0",
+  "PyYAML==6.0.2",
+  "matplotlib==3.10.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.3.4"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

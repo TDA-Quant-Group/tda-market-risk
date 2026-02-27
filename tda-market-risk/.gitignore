@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data artifacts (kept locally)
+data/raw/*.parquet
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.parquet
+data/processed/*.csv
+outputs/correlation_matrices/*.npy
+outputs/distance_matrices/*.npy
+outputs/manifests/*.csv
+outputs/figures/*.png
+
+# Jupyter
+.ipynb_checkpoints/
